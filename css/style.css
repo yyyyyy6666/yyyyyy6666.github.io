@@ -1,0 +1,179 @@
+*{
+	margin:0px;
+	padding:0px;
+	margin:0 auto;
+
+}
+#header{
+	width:934px;
+	height:483px;
+	margin-bottom:23px;
+
+}
+.top{
+	width: 934px;
+	height: 103px;
+}
+#header .top .logo{/*中间必须加空格*/
+	width:107px;
+	height:77px;
+	/*background-color: #faa;*/
+	background-image:url(../images/logo.gif);/*访问上级图片*/
+	float:left;
+	margin-top:8px ;
+	margin-bottom:17px;
+
+}
+
+
+#header .top .nav{
+	width:470px;
+	height:25px;
+	float:left;
+	margin:50px 0px 25px 31px ;
+	font-family: "MS Serif", "New York", serif;
+}	
+	
+
+
+
+.nav li{
+	list-style: none;
+	float:left;
+}
+.nav-1{
+	width: 38px;
+	height: 24px;
+	margin-right: 32px;
+}
+.nav-2{
+	width: 123px;
+	height: 24px;
+	margin-right: 32px;
+}
+.nav-3{
+	width: 69px;
+	height: 24px;
+	margin-right: 32px;
+}
+.nav-4{
+	width: 72px;
+	height: 25px;
+	
+
+}
+
+#header .top .search{
+	width:319px;
+	height:74px;
+	background-image:url(../images/search.gif);
+	float:left;
+	margin-top:7px ;
+	margin-bottom:21px;
+	
+}
+/*.clear-1{
+	clear:both;
+}*/
+#header .banner{
+	width:934px;
+	height:380px;
+	
+	background-image:url(../images/banner.gif);	
+	
+}
+
+#container{
+	width:934px;
+	height:507px;
+	
+	margin-bottom:80px;
+}
+.top-box{
+	width:934px;
+	height:285px;
+	margin-bottom:47px;
+	/*background-image:url(../images/container2.gif);*/	
+}
+.top-box1{
+	width: 302px;
+	height: 285px;
+	margin-right: 14px;
+	float:left;
+	
+}
+.top-box1 ul li{
+	line-height: 21px;
+	font-family: "Times New Roman", Times, serif;
+
+}
+.top-box1 ul li span{
+	display:block;
+}
+.top-box2{
+	width: 302px;
+	height: 285px;
+	margin-right: 14px;
+	float:left;
+}	
+.box2-ul li{
+	font-family: "Times New Roman", Times, serif;
+}
+.box2-ul li span{
+	display: block;
+}
+	
+
+.top-box3{
+	width: 302px;
+	height: 285px;
+	float:left;
+	
+	
+}
+.top-box3 li{
+	line-height: 21px;	
+	font-family: "Times New Roman", Times, serif;
+}
+
+.top-box3 img{
+	width: 302px;
+	height: 193px;
+	
+}
+.bottom-box{
+	width:934px;
+	height:223px;
+	
+	border:1px solid #000;
+}	
+.bottom-box ul{
+	width: 181px;
+	
+	margin-top:20px;
+	float:left;
+}
+.bottom-box ul li{
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 13px;
+	/*line-height: 20px;*/
+	list-style: none;
+	list-style-image:url(../images/三角.gif); 
+
+}
+.bottom-ul1{
+	margin-left:20px; 
+}
+.bottom-ul1 li span{
+	display:block;
+}/*块状元素*/
+.footer{
+	width:819px;
+	height:56px;
+	
+
+	background-image:url(../images/footer.gif);
+}
+
+
+
